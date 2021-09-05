@@ -43,7 +43,7 @@
 
 首先需要将二维的数据一维化
 
-![image-20210619212954584](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210619212954584.png)
+![https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/%E4%B8%80%E7%BB%B4%E5%8C%96.png](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/一维化.png)
 
 1. simpleDemo.py      
 
@@ -51,7 +51,7 @@
 
    - 搭建神经网络
 
-   ![image-20210619212745411](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210619212745411.png)
+   ![simpleDemo](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/simpleDemo.png)
 
    - 算法分析
 
@@ -67,7 +67,7 @@
 
    - 搭建神经网络
 
-   ![image-20210619212639297](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210619212639297.png)
+   ![complexDemo](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/complexDemo.png)
 
    - 算法分析
 
@@ -87,7 +87,7 @@
 
    - 搭建神经网络
 
-   ![image-20210619213442030](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210619213442030.png)
+   ![finalDemo](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/finalDemo.png)
 
    - 算法分析
 
@@ -121,20 +121,20 @@ print("test_loss:", test_loss, "    test_accuracy:", test_accuracy)
 
 1. simpleDemo.py
 
-   ![image-20210621082733831](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210621082733831.png)
+   ![simpleDemo1](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/simpleDemo1.png)
 
    可以发现simpleDemo的预测准确性并不是很高，仅有92%左右。
 
 2. complexDemo.py
 
-   ![image-20210621082848033](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210621082848033.png)
+   ![complexDemo1](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/complexDemo1.png)
 
    预测准确性可以达到99%左右，但是仍然存在着过拟合的情况。
 
 3. finalDemo.py
 
-   ![image-20210621083247992](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210621083247992.png)
+   ![finalDemo1](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/finalDemo1.png)
 
    在Kaggle提供的测试集和训练集上训练效果较好，测试集上的准确性能够达到99.55%左右，最终在Kaggle上的效果也证明了此算法较好。
 
-   ![image-20210621083448474](C:\Users\吴英豪\AppData\Roaming\Typora\typora-user-images\image-20210621083448474.png)
+   ![kaggle](https://github.com/HOLLYwyh/Mnist-Demo/blob/main/images/kaggle.png)
